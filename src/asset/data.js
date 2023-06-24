@@ -1,661 +1,1697 @@
 const data = [
   {
    "Name": "Abhishek Kumar",
+   "Branch": "CE",
+   "Email id": "abhishekkumarsinha004@gmail.com",
    "Phone": "8280040487",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 17,
+   "Bed": 1,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Ganga",
-   "room": "105",
-   "bed": 2
+   "admin_ph": 7004864898
   },
   {
    "Name": "Abhishek Kumar",
+   "Branch": "CE",
+   "Email id": "abhi.geckh@gmail.com",
    "Phone": "7903930473",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 17,
+   "Bed": 2,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Ganga",
-   "room": "106",
-   "bed": 2
+   "admin_ph": 7004864898
   },
   {
    "Name": "Vishwajeet Kumar",
+   "Branch": "ME",
+   "Email id": "vishwajeetk19@gmail.com",
    "Phone": "7903799033",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 60,
+   "Bed": 1,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Ganga",
-   "room": "219",
-   "bed": 1
+   "admin_ph": 7004864898
   },
   {
    "Name": "Prabhakar Kumar",
+   "Branch": "ME",
+   "Email id": "prabhakarkumar168@yahoo.com",
    "Phone": "7004190076",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 60,
+   "Bed": 2,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Bramhaputra",
-   "room": "312",
-   "bed": 1
+   "admin_ph": 7004864898
   },
   {
    "Name": "Ankit kumar singh",
+   "Branch": "EE",
+   "Email id": "kr03ankit@gmail.com",
    "Phone": "9101357355",
-   "cc": "Mr. Suraj Kumar",
-   "admin": "Mr. Kaustub Ranjan",
-   "admin_phone": "7412589630",
-   "hostel": "Ganga",
-   "room": "312",
-   "bed": 1
+   "Hostel": "Brahmputra",
+   "Room": 55,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Pallav kumar",
+   "Branch": "CE",
+   "Email id": "pallav318@gmail.com",
    "Phone": "8014640511",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 55,
+   "Bed": 2,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Ganga",
-   "room": "105",
-   "bed": 2
+   "admin_ph": 7004864898
   },
   {
    "Name": "Aparajita",
+   "Branch": "EE",
+   "Email id": "aprajitagupta22@gmail.com",
    "Phone": "9717813886",
-   "cc": "Mr. Suraj Kumar",
+   "Hostel": "Brahmputra",
+   "Room": 66,
+   "Bed": 1,
    "admin": "Mr. Vicky Kumar",
-   "admin_phone": "1234567890",
-   "hostel": "Ganga",
-   "room": "105",
-   "bed": 2
+   "admin_ph": 7004864898
   },
   {
    "Name": "Shivangi Utkarsh",
-   "Phone": "9097804343"
+   "Branch": "EE",
+   "Email id": "shivangiutkarsh123@gmail.com",
+   "Phone": "9097804343",
+   "Hostel": "Brahmputra",
+   "Room": 66,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Sushrut Pandey",
-   "Phone": "7999166719"
+   "Branch": "ME",
+   "Email id": "sushrutipandeyr201@gmail.com",
+   "Phone": "7999166719",
+   "Hostel": "Brahmputra",
+   "Room": 72,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "SNEHA KUMARI",
-   "Phone": "8873542778"
+   "Branch": "EE",
+   "Email id": "sneha27.sharma@gmail.com",
+   "Phone": "8873542778",
+   "Hostel": "Brahmputra",
+   "Room": 71,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "ALOK KUMAR",
-   "Phone": "6200247290"
+   "Branch": "ECE",
+   "Email id": "ALOK05APR@GMAIL.COM",
+   "Phone": "6200247290",
+   "Hostel": "Brahmputra",
+   "Room": 67,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "KRISHNAKANT CHAUBEY",
-   "Phone": "9876454633"
+   "Branch": "ECE",
+   "Email id": "KKC18AUG@GMAIL.COM",
+   "Phone": "9876454633",
+   "Hostel": "Brahmputra",
+   "Room": 67,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "PIYUSH KUMAR PANDEY",
-   "Phone": "8340559490"
+   "Branch": "ME",
+   "Email id": "ppiiyyush@gmail.com",
+   "Phone": "8340559490",
+   "Hostel": "Brahmputra",
+   "Room": 69,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "BHAVNA RAJPUT",
-   "Phone": "7983304867"
+   "Branch": "ME",
+   "Email id": "bhavnarajput1991@gmail.com",
+   "Phone": "7983304867",
+   "Hostel": "Brahmputra",
+   "Room": 68,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "PRIYANKA MISHRA",
-   "Phone": "6201091162"
+   "Branch": "CE",
+   "Email id": "priyanka673priya@gmail.com",
+   "Phone": "6201091162",
+   "Hostel": "Brahmputra",
+   "Room": 68,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "PRITAM KUMAR YADAV",
-   "Phone": "7903674919"
+   "Branch": "EE",
+   "Email id": "pritam3086@gmail.com",
+   "Phone": "7903674919",
+   "Hostel": "Brahmputra",
+   "Room": 69,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Ranajeet Kumar",
-   "Phone": 8730852571
+   "Branch": "CE",
+   "Email id": "kumarranajeet@gmail.com",
+   "Phone": "8730852571",
+   "Hostel": "Brahmputra",
+   "Room": 70,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Manish Pratap Singh",
-   "Phone": 8709040188
+   "Branch": "CE",
+   "Email id": "er.manishpratap@gmail.com",
+   "Phone": "8709040188",
+   "Hostel": "Brahmputra",
+   "Room": 70,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Rahul Kumar",
-   "Phone": 7735834292
+   "Branch": "CE",
+   "Email id": "rahul2493kumar@gmail.com",
+   "Phone": "7735834292",
+   "Hostel": "Brahmputra",
+   "Room": 72,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Dipshikha Narayan",
-   "Phone": 8826064328
+   "Branch": "ECE",
+   "Email id": "dipshikhanarayan@gmail.com",
+   "Phone": "8826064328",
+   "Hostel": "Brahmputra",
+   "Room": 71,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Keshab Kumar",
-   "Phone": 8436874158
+   "Branch": "ECE",
+   "Email id": "keshabchoudhary1992@gmail.com",
+   "Phone": "8436874158",
+   "Hostel": "Brahmputra",
+   "Room": 73,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Nishant Kumar",
-   "Phone": 7903841657
+   "Branch": "ME",
+   "Email id": "bksism2013@gmail.com",
+   "Phone": "7903841657",
+   "Hostel": "Brahmputra",
+   "Room": 73,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mr. Ashok Kumar Chaudhary",
-   "Phone": 9939930486
+   "Branch": "EEE",
+   "Email id": "ak02557@gmail.com",
+   "Phone": "9939930486",
+   "Hostel": "Brahmputra",
+   "Room": 63,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Kumari Kanchan",
-   "Phone": 8789902803
+   "Branch": "EEE",
+   "Email id": "kanchanbce2@gmail.com",
+   "Phone": "8789902803",
+   "Hostel": "Brahmputra",
+   "Room": 11,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Sakshiwala",
-   "Phone": 9110078543
+   "Branch": "CSE",
+   "Email id": "sakshiwala2022@gmail.com",
+   "Phone": "9110078543",
+   "Hostel": "Brahmputra",
+   "Room": 11,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Abhinah Kumar",
-   "Phone": 8789902803
+   "Branch": "ME",
+   "Email id": "kumaravinash858@gmail.com",
+   "Phone": "8789902803",
+   "Hostel": "Brahmputra",
+   "Room": 63,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Muhammad Aslam",
-   "Phone": 7906532356
+   "Branch": "CE",
+   "Email id": "mdaslam687@gmail.com",
+   "Phone": "7906532356",
+   "Hostel": "Brahmputra",
+   "Room": 9,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Suryakant Kumar",
-   "Phone": 9078634210
+   "Branch": "ME",
+   "Email id": "hod.me.gcegaya@gmail.com",
+   "Phone": "9078634210",
+   "Hostel": "Brahmputra",
+   "Room": 9,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Ritesh Kumar",
-   "Phone": 8095772599
+   "Branch": "CSE",
+   "Email id": "reetraj.karan@gmail.com",
+   "Phone": "8095772599",
+   "Hostel": "Brahmputra",
+   "Room": 101,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Hrishikesh",
-   "Phone": 8920974788
+   "Branch": "ME",
+   "Email id": "hrishikesh617309@gmail.com",
+   "Phone": "8920974788",
+   "Hostel": "Brahmputra",
+   "Room": 101,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Dr. Vaishali",
-   "Phone": 8789427185
+   "Branch": "ME",
+   "Email id": "vaishali765@gmail.com",
+   "Phone": "8789427185",
+   "Hostel": "Brahmputra",
+   "Room": 105,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mukesh Kumar",
-   "Phone": 8460965569
+   "Branch": "ME",
+   "Email id": "kumar3mukesh@gmail.com",
+   "Phone": "8460965569",
+   "Hostel": "Brahmputra",
+   "Room": 113,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Mukesh Kumar",
-   "Phone": 9122693729
+   "Branch": "CE",
+   "Email id": "bemukeshkumar@gmail.com",
+   "Phone": "9122693729",
+   "Hostel": "Brahmputra",
+   "Room": 113,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Priti Kumari",
-   "Phone": 8789036542
+   "Branch": "CE",
+   "Email id": "pritipretty8@gmail.com",
+   "Phone": "8789036542",
+   "Hostel": "Brahmputra",
+   "Room": 105,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Dr. Ravindra kumar",
-   "Phone": 8600019774
+   "Branch": "ECE",
+   "Email id": "ravindrakumar@gecsheohar.ac.in",
+   "Phone": "8600019774",
+   "Hostel": "Brahmputra",
+   "Room": 115,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Vikram Kumar",
-   "Phone": 9990681804
+   "Branch": "ME",
+   "Email id": "Kumarvikram99906@gmail.com",
+   "Phone": "9990681804",
+   "Hostel": "Brahmputra",
+   "Room": 115,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Vinay shankar kumar",
-   "Phone": 9547494439
+   "Branch": "ME",
+   "Email id": "Vinayshankar38@gmail.com",
+   "Phone": "9547494439",
+   "Hostel": "Brahmputra",
+   "Room": 117,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Raju kumar sharma",
-   "Phone": 8109608933
+   "Branch": "ME",
+   "Email id": "rajukmrsharma939@gmail.com",
+   "Phone": "8109608933",
+   "Hostel": "Brahmputra",
+   "Room": 117,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "KUMAR ABHINESH",
-   "Phone": 9123203148
+   "Branch": "CE",
+   "Email id": "abhineshkundan7@gmail.com",
+   "Phone": "9123203148",
+   "Hostel": "Brahmputra",
+   "Room": 124,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "MANOJ KUMAR",
-   "Phone": 7050236618
+   "Branch": "ME",
+   "Email id": "manoj.218143@gmail.com",
+   "Phone": "7050236618",
+   "Hostel": "Brahmputra",
+   "Room": 124,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Anjanee Kumar",
-   "Phone": 8340282094
+   "Branch": "ME",
+   "Email id": "970anjaneekumar@gmail.com",
+   "Phone": "8340282094",
+   "Hostel": "Brahmputra",
+   "Room": 125,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Amarjeet Paswan",
-   "Phone": 9540512812
+   "Branch": "ME",
+   "Email id": "amarjeetambar2100@gmail.com",
+   "Phone": "9540512812",
+   "Hostel": "Brahmputra",
+   "Room": 125,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "shivam kumar",
-   "Phone": 8350929615
+   "Branch": "ECE",
+   "Email id": "skgupta940@gmail.com",
+   "Phone": "8350929615",
+   "Hostel": "Brahmputra",
+   "Room": 126,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Lucky kumar",
-   "Phone": 8252685560
+   "Branch": "ECE",
+   "Email id": "luckykumar.iet@gmail.com",
+   "Phone": "8252685560",
+   "Hostel": "Brahmputra",
+   "Room": 126,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "ANCHAL ANAND",
-   "Phone": 8987255772
+   "Branch": "EE",
+   "Email id": "ANCHAL.ANC26@GMAIL.COM",
+   "Phone": "8987255772",
+   "Hostel": "Brahmputra",
+   "Room": 167,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "PRIYANKA KUMARI",
-   "Phone": 7645082770
+   "Branch": "EE",
+   "Email id": "PRIYANKAEE46@GMAIL.COM",
+   "Phone": "7645082770",
+   "Hostel": "Brahmputra",
+   "Room": 127,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Prof. Priyesh Kumar",
-   "Phone": 9560556178
+   "Branch": "ME",
+   "Email id": "kumarpriyesh303@gmail.com",
+   "Phone": "9560556178",
+   "Hostel": "Brahmputra",
+   "Room": 167,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Krishna Raj",
-   "Phone": 7490973277
+   "Branch": "ME",
+   "Email id": "krishnaraj2016@gmail.com",
+   "Phone": "7490973277",
+   "Hostel": "Brahmputra",
+   "Room": 168,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Randhir Kumar",
-   "Phone": 7004769996
+   "Branch": "CE",
+   "Email id": "randhirphd@gmail.com",
+   "Phone": "7004769996",
+   "Hostel": "Brahmputra",
+   "Room": 168,
+   "Bed": 2,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Vikash kumar",
-   "Phone": 7004994269
+   "Branch": "EE",
+   "Email id": "VK414440@GMAIL.COM",
+   "Phone": "7004994269",
+   "Hostel": "Brahmputra",
+   "Room": 169,
+   "Bed": 1,
+   "admin": "Mr. Vicky Kumar",
+   "admin_ph": 7004864898
   },
   {
    "Name": "Priya Kumari",
-   "Phone": 7995261962
+   "Branch": "EE",
+   "Email id": "ppriyakumari8@gmail.com",
+   "Phone": "7995261962",
+   "Hostel": "Brahmputra",
+   "Room": 127,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Abhishek kumar",
-   "Phone": 9631521485
+   "Branch": "EE",
+   "Email id": "abhi2n4u@gmail.com",
+   "Phone": "9631521485",
+   "Hostel": "Brahmputra",
+   "Room": 169,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Neha choudhary",
-   "Phone": 6205973439
+   "Branch": "ECE",
+   "Email id": "nehachoudharygecv@gmail.com",
+   "Phone": "6205973439",
+   "Hostel": "Brahmputra",
+   "Room": 170,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Sunaina kumari",
-   "Phone": 9487105974
+   "Branch": "ECE",
+   "Email id": "sunaina.gecv@gmail.com",
+   "Phone": "9487105974",
+   "Hostel": "Brahmputra",
+   "Room": 170,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Punam verma",
-   "Phone": 8093284948
+   "Branch": "CE",
+   "Email id": "Poonam_mast@ymail.com",
+   "Phone": "8093284948",
+   "Hostel": "Brahmputra",
+   "Room": 171,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Jayanti prabha bharti",
-   "Phone": 9711303992
+   "Branch": "CE",
+   "Email id": "Bhartijayanti@gmail.com",
+   "Phone": "9711303992",
+   "Hostel": "Brahmputra",
+   "Room": 171,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Farhat Jahan",
-   "Phone": 6287717004
+   "Branch": "CE",
+   "Email id": "Jehanfaru712@gmail.com",
+   "Phone": "6287717004",
+   "Hostel": "Brahmputra",
+   "Room": 173,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Suraj prakash",
-   "Phone": 8578092999
+   "Branch": "EE",
+   "Email id": "Prakashsuman.1408@gmail.com",
+   "Phone": "8578092999",
+   "Hostel": "Brahmputra",
+   "Room": 173,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Anusha Rani",
-   "Phone": 9557080490
+   "Branch": "CE",
+   "Email id": "anusha06.iitr@gmail.com",
+   "Phone": "9557080490",
+   "Hostel": "Brahmputra",
+   "Room": 250,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Shailesh Kumar",
-   "Phone": 7906209274
+   "Branch": "CE",
+   "Email id": "kr.shailesh456@gmail.com",
+   "Phone": "7906209274",
+   "Hostel": "Brahmputra",
+   "Room": 208,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Santosh Kumar",
-   "Phone": 7838452886
+   "Branch": "ME",
+   "Email id": "onnecto.santosh@gmail.com",
+   "Phone": "7838452886",
+   "Hostel": "Brahmputra",
+   "Room": 208,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Gautam Kumar",
-   "Phone": 8449629081
+   "Branch": "ME",
+   "Email id": "gkumar163@gmail.com",
+   "Phone": "8449629081",
+   "Hostel": "Brahmputra",
+   "Room": 251,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Ms. Akanksha chaudhari",
-   "Phone": 8931093155
+   "Branch": "ME",
+   "Email id": "chaudharyakanksha913@gmail.com",
+   "Phone": "8931093155",
+   "Hostel": "Brahmputra",
+   "Room": 250,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mrs. Jigyasa kumari",
-   "Phone": 8409482601
+   "Branch": "EE",
+   "Email id": "jigyasakumari11@gmail.com",
+   "Phone": "8409482601",
+   "Hostel": "Brahmputra",
+   "Room": 249,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Kumar Keshav Jha",
-   "Phone": 9801664785
+   "Branch": "EE",
+   "Email id": "krkeshavjha92@gmail.com",
+   "Phone": "9801664785",
+   "Hostel": "Brahmputra",
+   "Room": 251,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Sunny kumar",
-   "Phone": 9981868620
+   "Branch": "EE",
+   "Email id": "sunnykr06@gmail.com",
+   "Phone": "9981868620",
+   "Hostel": "Brahmputra",
+   "Room": 252,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Amit kumar",
-   "Phone": 7983155794
+   "Branch": "ME",
+   "Email id": "amit.iitr892@gmail.com",
+   "Phone": "7983155794",
+   "Hostel": "Brahmputra",
+   "Room": 248,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Chandan Kumar",
-   "Phone": 6203492415
+   "Branch": "ME",
+   "Email id": "chandankumar.mech@gmail.com",
+   "Phone": "6203492415",
+   "Hostel": "Brahmputra",
+   "Room": 248,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Sweta Kumari",
-   "Phone": 9905618148
+   "Branch": "EE",
+   "Email id": "eeesweta@gmail.com",
+   "Phone": "9905618148",
+   "Hostel": "Brahmputra",
+   "Room": 249,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Navdeep Pandey",
-   "Phone": 9084063221
+   "Branch": "ME",
+   "Email id": "ndpgecswn@gmail.com",
+   "Phone": "9084063221",
+   "Hostel": "Brahmputra",
+   "Room": 252,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Deva nand patel",
-   "Phone": 9170124920
+   "Branch": "ECE",
+   "Email id": "devanandnssbp@gmail.com",
+   "Phone": "9170124920",
+   "Hostel": "Brahmputra",
+   "Room": 253,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Omprakash Kumar",
-   "Phone": 8113037908
+   "Branch": "EE",
+   "Email id": "apdrii21@gmail.com",
+   "Phone": "8113037908",
+   "Hostel": "Brahmputra",
+   "Room": 253,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Dr. Sumit Raj",
-   "Phone": 8981105842
+   "Branch": "EE",
+   "Email id": "sumitraj165@gmail.com",
+   "Phone": "8981105842",
+   "Hostel": "Brahmputra",
+   "Room": 243,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Dipak kr Singh",
-   "Phone": 9339041782
+   "Branch": "EE",
+   "Email id": "dipaksingh27@gmail.com",
+   "Phone": "9339041782",
+   "Hostel": "Brahmputra",
+   "Room": 243,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mohit Kumar",
-   "Phone": 8984565472
+   "Branch": "ECE",
+   "Email id": "enggmohitkumar@gmail.com",
+   "Phone": "8984565472",
+   "Hostel": "Brahmputra",
+   "Room": 245,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Dheeraj Kumar",
-   "Phone": 9999426401
+   "Branch": "ECE",
+   "Email id": "dheeraj2012079@gmail.com",
+   "Phone": "9999426401",
+   "Hostel": "Brahmputra",
+   "Room": 245,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Satyam Kumar Singh",
-   "Phone": 7091683638
+   "Branch": "EE",
+   "Email id": "iitdhanbad@gmail.com",
+   "Phone": "7091683638",
+   "Hostel": "Brahmputra",
+   "Room": 273,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Abhimanyu Kumar",
-   "Phone": 9476594379
+   "Branch": "EE",
+   "Email id": "abhimanyuk682@gmail.com",
+   "Phone": "9476594379",
+   "Hostel": "Brahmputra",
+   "Room": 273,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Abhishek Kumar",
-   "Phone": 9631052383
+   "Branch": "CE",
+   "Email id": "abhimce11@gmail.com",
+   "Phone": "9631052383",
+   "Hostel": "Brahmputra",
+   "Room": 215,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Rajeev Ranjan",
-   "Phone": 7008328849
+   "Branch": "ECE",
+   "Email id": "rajeevranjan212@gmail.com",
+   "Phone": "7008328849",
+   "Hostel": "Brahmputra",
+   "Room": 215,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Pankaj Kumar",
-   "Phone": 9993648196
+   "Branch": "ME",
+   "Email id": "pnkj143kumar@gmail.com",
+   "Phone": "9993648196",
+   "Hostel": "Brahmputra",
+   "Room": 313,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Brajesh Kumar",
-   "Phone": 8298617324
+   "Branch": "ME",
+   "Email id": "brajeshksme57@gmail.com",
+   "Phone": "8298617324",
+   "Hostel": "Brahmputra",
+   "Room": 313,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Anand Kumar",
-   "Phone": 9955861302
+   "Branch": "CE",
+   "Email id": "kranand228@gmail.com",
+   "Phone": "9955861302",
+   "Hostel": "Brahmputra",
+   "Room": 326,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Dr. Sunita Sinha",
-   "Phone": 8271742429
+   "Branch": "ECE",
+   "Email id": "sunita07ecmjpru@gmail.com",
+   "Phone": "8271742429",
+   "Hostel": "Brahmputra",
+   "Room": 331,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Ankita Kumari",
-   "Phone": 8210063415
+   "Branch": "ECE",
+   "Email id": "ankitakri63@gmail.com",
+   "Phone": "8210063415",
+   "Hostel": "Brahmputra",
+   "Room": 331,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Chitranjan Kumar",
-   "Phone": 7011015937
+   "Branch": "ME",
+   "Email id": "chrk01993@gmail.com",
+   "Phone": "7011015937",
+   "Hostel": "Brahmputra",
+   "Room": 326,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Chandan Kumar",
-   "Phone": "+91-9598972664"
+   "Branch": "ECE",
+   "Email id": "chandan.ece.mit@gmail.com",
+   "Phone": "9598972664",
+   "Hostel": "Brahmputra",
+   "Room": 333,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Sanjeev Kumar",
-   "Phone": 7903657802
+   "Branch": "ME",
+   "Email id": "san.raj3323@gmail.com",
+   "Phone": "7903657802",
+   "Hostel": "Brahmputra",
+   "Room": 333,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Ashish Anand",
-   "Phone": 7001947441
+   "Branch": "CE",
+   "Email id": "ashisha.pg18.ce@nitp.ac.in",
+   "Phone": "7001947441",
+   "Hostel": "Brahmputra",
+   "Room": 334,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Mr. Vivek Kumar",
-   "Phone": 7903371522
+   "Branch": "CE",
+   "Email id": "vk9470052833@gmail.com",
+   "Phone": "7903371522",
+   "Hostel": "Brahmputra",
+   "Room": 334,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Priyatam Kumar",
-   "Phone": 9465131835
+   "Branch": "ECE",
+   "Email id": "priyatamece07@gmail.com",
+   "Phone": "9465131835",
+   "Hostel": "Brahmputra",
+   "Room": 335,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Kumar Vimal",
-   "Phone": 8510096046
+   "Branch": "ECE",
+   "Email id": "kkumarvimal@gmail.com",
+   "Phone": "8510096046",
+   "Hostel": "Brahmputra",
+   "Room": 335,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Dharmendra Kumar",
-   "Phone": 9430552550
+   "Branch": "ECE",
+   "Email id": "dkumaryadav99@gmail.com",
+   "Phone": "9430552550",
+   "Hostel": "Brahmputra",
+   "Room": 336,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Raj Kumar",
-   "Phone": 9123439207
+   "Branch": "EE",
+   "Email id": "rajk7250@gmail.com",
+   "Phone": "9123439207",
+   "Hostel": "Brahmputra",
+   "Room": 336,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Gaurav Anand",
-   "Phone": 7991125787
+   "Branch": "EE",
+   "Email id": "gauraviitd2016@gmail.com",
+   "Phone": "7991125787",
+   "Hostel": "Brahmputra",
+   "Room": 337,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Raj Kumar Sharma",
-   "Phone": 7905165567
+   "Branch": "ECE",
+   "Email id": "rajsharma.spnrec@rediffmail.com",
+   "Phone": "7905165567",
+   "Hostel": "Brahmputra",
+   "Room": 337,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Vikash Kumar",
-   "Phone": 7586028385
+   "Branch": "EE",
+   "Email id": "staavk@gmail.com",
+   "Phone": "7586028385",
+   "Hostel": "Brahmputra",
+   "Room": 338,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Prity Kumari",
-   "Phone": 6206250359
+   "Branch": "EEE",
+   "Email id": "prity030391@gmail.com",
+   "Phone": "6206250359",
+   "Hostel": "Brahmputra",
+   "Room": 352,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Vijay kumar Choudhary",
-   "Phone": 9852813653
+   "Branch": "ME",
+   "Email id": "vijaykumarkrishna@gmail.com",
+   "Phone": "9852813653",
+   "Hostel": "Brahmputra",
+   "Room": 338,
+   "Bed": 2,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Jitendra Kumar",
-   "Phone": 8384002991
+   "Branch": "EEE",
+   "Email id": "jitu2k8@gmail.com",
+   "Phone": "8384002991",
+   "Hostel": "Brahmputra",
+   "Room": 344,
+   "Bed": 1,
+   "admin": "Mr. Kaustubh Ranjan Pandey",
+   "admin_ph": 9354142236
   },
   {
    "Name": "Amit Kumar",
-   "Phone": 8676869648
+   "Branch": "CE",
+   "Email id": "kr.amit260@gmail.com",
+   "Phone": "8676869648",
+   "Hostel": "Brahmputra",
+   "Room": 340,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sujeet Suman",
-   "Phone": 9507644675
+   "Branch": "CE",
+   "Email id": "sujeetsuman17@gmail.com",
+   "Phone": "9507644675",
+   "Hostel": "Brahmputra",
+   "Room": 340,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ravi Kumar",
-   "Phone": 7906795919
+   "Branch": "EE",
+   "Email id": "ravieegecm@gmail.com",
+   "Phone": "7906795919",
+   "Hostel": "Brahmputra",
+   "Room": 341,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Abhishek Sharma",
-   "Phone": 8952010788
+   "Branch": "EE",
+   "Email id": "abhishek.i.e.iit@gmail.com",
+   "Phone": "8952010788",
+   "Hostel": "Brahmputra",
+   "Room": 341,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Nidhi Devi",
-   "Phone": 8756142636
+   "Branch": "ME",
+   "Email id": "nidhime25@gmail.com",
+   "Phone": "8756142636",
+   "Hostel": "Brahmputra",
+   "Room": 342,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ekta Tripathi",
-   "Phone": 8948603008
+   "Branch": "ME",
+   "Email id": "ekta.tripathi111@gmail.com",
+   "Phone": "8948603008",
+   "Hostel": "Brahmputra",
+   "Room": 342,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Shweta Kumari",
-   "Phone": 8056248921
+   "Branch": "ECE",
+   "Email id": "fsc.kshweta@gmail.com",
+   "Phone": "8056248921",
+   "Hostel": "Brahmputra",
+   "Room": 343,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sneha Bharti",
-   "Phone": 8310292420
+   "Branch": "ECE",
+   "Email id": "sneha2012bharti@gmail.com",
+   "Phone": "8310292420",
+   "Hostel": "Brahmputra",
+   "Room": 343,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ramsevak Kushwaha",
-   "Phone": 7275133894
+   "Branch": "ME",
+   "Email id": "kramsevak@gmail.com",
+   "Phone": "7275133894",
+   "Hostel": "Brahmputra",
+   "Room": 344,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Pradhumn Tiwari",
-   "Phone": 8770929165
+   "Branch": "ME",
+   "Email id": "pradhumnrewa@gmail.com",
+   "Phone": "8770929165",
+   "Hostel": "Brahmputra",
+   "Room": 345,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ram Pratap Singh",
-   "Phone": 7065866981
+   "Branch": "ECE",
+   "Email id": "pratap.ram7230@gmail.com",
+   "Phone": "7065866981",
+   "Hostel": "Brahmputra",
+   "Room": 345,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sikander Singh",
-   "Phone": 9532688679
+   "Branch": "EE",
+   "Email id": "singhsikander36@gmail.com",
+   "Phone": "9532688679",
+   "Hostel": "Brahmputra",
+   "Room": 346,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sri Manan Jee",
-   "Phone": 9006529935
+   "Branch": "EEE",
+   "Email id": "manan.kec@gmail.com",
+   "Phone": "9006529935",
+   "Hostel": "Brahmputra",
+   "Room": 346,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sri DeepakKumar",
-   "Phone": 9882743420
+   "Branch": "CSE",
+   "Email id": "deepakkumar.nith@gmail.com",
+   "Phone": "9882743420",
+   "Hostel": "Brahmputra",
+   "Room": 347,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Nitish Kumar",
-   "Phone": 9990169965
+   "Branch": "EEE",
+   "Email id": "nitianj@gmail.com",
+   "Phone": "9990169965",
+   "Hostel": "Brahmputra",
+   "Room": 347,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Kumar Ask",
-   "Phone": 9798152615
+   "Branch": "EEE",
+   "Email id": "kumar29ask@gmail.com",
+   "Phone": "9798152615",
+   "Hostel": "Brahmputra",
+   "Room": 348,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Abhimanyu Mandal",
-   "Phone": 7000374740
+   "Branch": "EEE",
+   "Email id": "mandal.abhimanyu225@gmail.com",
+   "Phone": "7000374740",
+   "Hostel": "Brahmputra",
+   "Room": 348,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Hare Krishna Mishra",
-   "Phone": 9667152999
+   "Branch": "EEE",
+   "Email id": "hare_mishra1985@rediffmail.com",
+   "Phone": "9667152999",
+   "Hostel": "Brahmputra",
+   "Room": 349,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ashish Kumar Suman",
-   "Phone": 9773823121
+   "Branch": "EEE",
+   "Email id": "sumanashish.rkt@gmail.com",
+   "Phone": "9773823121",
+   "Hostel": "Brahmputra",
+   "Room": 349,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Mithlesh Kumar",
-   "Phone": 9088376420
+   "Branch": "EEE",
+   "Email id": "mithlesh88738@gmail.com",
+   "Phone": "9088376420",
+   "Hostel": "Brahmputra",
+   "Room": 350,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Akash Kashyap",
-   "Phone": 9472001518
+   "Branch": "ME",
+   "Email id": "akash.kashyap28@gmail.com",
+   "Phone": "9472001518",
+   "Hostel": "Brahmputra",
+   "Room": 350,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "kumar Saurabh",
-   "Phone": 8789930449
+   "Branch": "EE",
+   "Email id": "3.kumar.saurabh@gmail.com",
+   "Phone": "8789930449",
+   "Hostel": "Brahmputra",
+   "Room": 351,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Sanjeev Kumar Sajjan",
-   "Phone": 7895379560
+   "Branch": "ME",
+   "Email id": "sanjeevkumarsajjan@gmail.com",
+   "Phone": "7895379560",
+   "Hostel": "Brahmputra",
+   "Room": 351,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Reshu Singh",
-   "Phone": 8056107811
+   "Branch": "CE",
+   "Email id": "reshusingh5794@gmail.com",
+   "Phone": "8056107811",
+   "Hostel": "Brahmputra",
+   "Room": 353,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Abhishek Kumar",
-   "Phone": 7044012955
+   "Branch": "CE",
+   "Email id": "abhi.mit12@gmail.com",
+   "Phone": "7044012955",
+   "Hostel": "Brahmputra",
+   "Room": 353,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Neha Rani",
-   "Phone": 9576870131
+   "Branch": "CE",
+   "Email id": "neharani.ce@gmail.com",
+   "Phone": "9576870131",
+   "Hostel": "Brahmputra",
+   "Room": 352,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Pragya Chaudhary",
-   "Phone": 7320023165
+   "Branch": "CSE",
+   "Email id": "pragya.530nith@gmail.com",
+   "Phone": "7320023165",
+   "Hostel": "Brahmputra",
+   "Room": 355,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "REENA KUMARI",
-   "Phone": 7735953461
+   "Branch": "EE",
+   "Email id": "kumarireena228@gmail.com",
+   "Phone": "7735953461",
+   "Hostel": "Brahmputra",
+   "Room": 355,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Raunaque Paraveen",
-   "Phone": 6307081107
+   "Branch": "ME",
+   "Email id": "786raunaqueparaveen@gmail.com",
+   "Phone": "6307081107",
+   "Hostel": "Brahmputra",
+   "Room": 356,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Poonam Kumari",
-   "Phone": 9731040865
+   "Branch": "ME",
+   "Email id": "poonamguptamech@gmail.com",
+   "Phone": "9731040865",
+   "Hostel": "Brahmputra",
+   "Room": 356,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "RAVI BHUSHAN KUMAR",
-   "Phone": 8102888355
+   "Branch": "ECE",
+   "Email id": "rbhushan497@gmail.com",
+   "Phone": "8102888355",
+   "Hostel": "Brahmputra",
+   "Room": 357,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "BABY KHUSHBOO",
-   "Phone": 8709801813
+   "Branch": "ECE",
+   "Email id": "babykhushboo09ec19@gmail.com",
+   "Phone": "8709801813",
+   "Hostel": "Brahmputra",
+   "Room": 360,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ajay Kumar",
-   "Phone": 8678816231
+   "Branch": "EE",
+   "Email id": "ajay10002@gmail.com",
+   "Phone": "8678816231",
+   "Hostel": "Brahmputra",
+   "Room": 357,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Mantu Kumar Ram",
-   "Phone": 9572420709
+   "Branch": "EE",
+   "Email id": "mantussm03@gmail.com",
+   "Phone": "9572420709",
+   "Hostel": "Brahmputra",
+   "Room": 358,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Jitendra Kumar",
-   "Phone": 9955538885
+   "Branch": "ME",
+   "Email id": "jitendranitp@yahoo.com",
+   "Phone": "9955538885",
+   "Hostel": "Brahmputra",
+   "Room": 358,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Navneet Kumar Singh",
-   "Phone": 9717126708
+   "Branch": "ME",
+   "Email id": "navneetk756@gmail.com",
+   "Phone": "9717126708",
+   "Hostel": "Brahmputra",
+   "Room": 359,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Vicky Kumar",
-   "Phone": 7992274025
+   "Branch": "EEE",
+   "Email id": "vickydce52@gmail.com",
+   "Phone": "7992274025",
+   "Hostel": "Brahmputra",
+   "Room": 359,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Avinash Kumar",
-   "Phone": 8507110665
+   "Branch": "EEE",
+   "Email id": "avinashkumardce@gmail.com",
+   "Phone": "8507110665",
+   "Hostel": "Brahmputra",
+   "Room": 361,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Aditya Raj",
-   "Phone": 8507679489
+   "Branch": "CE",
+   "Email id": "adityaraj126@gmail.com",
+   "Phone": "8507679489",
+   "Hostel": "Brahmputra",
+   "Room": 361,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Amar Kumar",
-   "Phone": 9508715069
+   "Branch": "CE",
+   "Email id": "amarskumar997@gmail.com",
+   "Phone": "9508715069",
+   "Hostel": "Brahmputra",
+   "Room": 362,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Gaurav Kumar Singh",
-   "Phone": 8863076490
+   "Branch": "CE",
+   "Email id": "gauravkumarsingh062@gmail.com",
+   "Phone": "8863076490",
+   "Hostel": "Brahmputra",
+   "Room": 362,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Prince Raj",
-   "Phone": 7903430646
+   "Branch": "CE",
+   "Email id": "prince99265@gmail.com",
+   "Phone": "7903430646",
+   "Hostel": "Brahmputra",
+   "Room": 363,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Rajnish kumar",
-   "Phone": 8709223575
+   "Branch": "CE",
+   "Email id": "kumarrajnish10127@gmail.com",
+   "Phone": "8709223575",
+   "Hostel": "Brahmputra",
+   "Room": 363,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Abhash Ranjan",
-   "Phone": 7091993693
+   "Branch": "CE",
+   "Email id": "aranjan15213@gmail.com",
+   "Phone": "7091993693",
+   "Hostel": "Brahmputra",
+   "Room": 371,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Manish Kumar",
-   "Phone": 8083158093
+   "Branch": "ME",
+   "Email id": "manish.gecmunger@gmail.com",
+   "Phone": "8083158093",
+   "Hostel": "Brahmputra",
+   "Room": 371,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Rashmi Rani",
-   "Phone": 9955834470
+   "Branch": "ME",
+   "Email id": "rashmiranirns@gmail.com",
+   "Phone": "9955834470",
+   "Hostel": "Brahmputra",
+   "Room": 360,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Ishant Kumar",
-   "Phone": 8864857438
+   "Branch": "CE",
+   "Email id": "ishan.bit.2013@gmail.com",
+   "Phone": "8864857438",
+   "Hostel": "Brahmputra",
+   "Room": 172,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Praful Chand",
-   "Phone": 8884911159
+   "Branch": "ME",
+   "Email id": "prafullac99@gmail.com",
+   "Phone": "8884911159",
+   "Hostel": "Brahmputra",
+   "Room": 172,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Poonam kumari",
-   "Phone": 7384708466
+   "Branch": "ECE",
+   "Email id": "92kumaripoonam@gmail.com",
+   "Phone": "7384708466",
+   "Hostel": "Brahmputra",
+   "Room": 21,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Bablesh kumar jha",
-   "Phone": 9454196195
+   "Branch": "EE",
+   "Email id": "bableshjha@gmail.com",
+   "Phone": "9454196195",
+   "Hostel": "Brahmputra",
+   "Room": 128,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Diwakar kumar",
-   "Phone": 7870763953
+   "Branch": "EE",
+   "Email id": "diwakarvermasonu@gmail.com",
+   "Phone": "7870763953",
+   "Hostel": "Brahmputra",
+   "Room": 128,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Amit kumar singh",
-   "Phone": 9123152659
+   "Branch": "EE",
+   "Email id": "amitsingh.sec@gmail.com",
+   "Phone": "9123152659",
+   "Hostel": "Brahmputra",
+   "Room": 10,
+   "Bed": 1,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Abhinav kumar",
-   "Phone": 7003389681
+   "Branch": "ECE",
+   "Email id": "abhinavbceece@gmail.com",
+   "Phone": "7003389681",
+   "Hostel": "Brahmputra",
+   "Room": 10,
+   "Bed": 2,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   },
   {
    "Name": "Nikhil kumar",
-   "Phone": 9471477486
+   "Branch": "CSE",
+   "Email id": "nikhil.svnitcoed@gmail.com",
+   "Phone": "9471477486",
+   "Hostel": "Brahmputra",
+   "Room": 9,
+   "Bed": 3,
+   "admin": "Ms. Jagriti Kumari",
+   "admin_ph": 8340176706
   }
  ]
 

@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from "react";
 import data from '../asset/data';
-import bipard from "../asset/BIPARD.jpg";
-import { Button, Form, Row, Col} from "react-bootstrap";
-import "./home.css";
 
-const Home = () => {
-  const [searchTerm, setSearchTerm] = useState('');
+function Details(){
+    const [searchTerm, setSearchTerm] = useState('');
   const [searchResult, setSearchResult] = useState(null);
   const [error, setError] = useState(null);
 
@@ -31,32 +28,8 @@ const Home = () => {
       setError('No matching details found');
     }
   };
-
-  return (
-    <div className='container-sm'>
-      <Row className='search'>
-        <Col sm={4}>
-          <Form className="d-flex">
-      <Form.Control
-        type="search"
-        placeholder="Enter Your Mobile Number:"
-        className="me-2 rounded-pill"
-        aria-label="Enter Your Mobile Number:"
-        value={searchTerm}
-        onChange={handleInputChange}
-        maxLength={10}
-      />
-      <div>
-        <Button variant="outline-primary" onClick={handleSearch}>Search</Button>
-        </div>
-        </Form>
-        </Col>
-      </Row>
-      
-     
-      {error && <p>{error}</p>}
-
-      {searchResult && (
+    return(
+        {searchResult && (
         <>
       
         <img src={bipard} alt="" width="120" height="120" />
@@ -82,7 +55,7 @@ const Home = () => {
               <td>
                 Your Course Coordinater
               </td>
-              <td>Mr. Suraj Kumar</td>
+              <td>{searchResult.cc}</td>
             </tr>
             <tr>
               <td>
@@ -95,21 +68,21 @@ const Home = () => {
                 Admin Contact No
               </td>
               <td>
-                {searchResult.admin_ph}
+                {searchResult.admin_phone}
               </td>
             </tr>
             <tr>
               <td>
                 Your Hostel Name
               </td>
-              <td>{searchResult.Hostel}</td>
+              <td>{searchResult.hostel}</td>
             </tr>
             <tr>
               <td>
                 Room No
               </td>
               <td>
-                {searchResult.Room}
+                {searchResult.room}
               </td>
             </tr>
             <tr>
@@ -117,7 +90,7 @@ const Home = () => {
                 Bed No
               </td>
               <td>
-                {searchResult.Bed}
+                {searchResult.bed}
               </td>
             </tr>
           </tbody>
@@ -127,8 +100,8 @@ const Home = () => {
       
 
     </>
-      )}
-    </div>
-  );
-};
-export default Home;
+    )}
+    )
+}
+
+export default Details;
