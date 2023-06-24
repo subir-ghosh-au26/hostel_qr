@@ -82,7 +82,7 @@ const Home = () => {
               <td>
                 Your Course Coordinater
               </td>
-              <td>Mr. Suraj Kumar</td>
+              <td>Mr. Suraj Kumar<br/>(Assistant Director)</td>
             </tr>
             <tr>
               <td>
