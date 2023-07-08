@@ -28,7 +28,7 @@ const Home = () => {
       setError(null);
     } else {
       setSearchResult(null);
-      setError('No matching details found');
+      setError('<h1>No matching details found</h1>');
     }
   };
 
@@ -110,14 +110,6 @@ const Home = () => {
               </td>
               <td>
                 {searchResult.Room}
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Bed No
-              </td>
-              <td>
-                {searchResult.Bed}
               </td>
             </tr>
           </tbody>
