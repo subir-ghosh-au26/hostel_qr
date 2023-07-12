@@ -36,15 +36,18 @@ const Home = () => {
 
 
   const speech = ()=>{
-  const text = `Hi ${searchResult.Name} Welcome to Bipard Gaya`
+  const text = `Hi ${searchResult.Name} Welcome to Beepard Gaya`
   const value = new SpeechSynthesisUtterance(text);
+  value.rate = 1
+  value.voice = speechSynthesis.getVoices()[10]
   window.speechSynthesis.speak(value)
+  
   };
 
   return (
-    <div className='container-sm'>
+    <div className='container'>
       <Row className='search'>
-        <Col sm={4}>
+        <Col sm={6}>
           <Form className="d-flex">
       <Form.Control
         type="search"
@@ -120,7 +123,7 @@ const Home = () => {
               <td>
                 Your Hostel Name
               </td>
-              <td>{searchResult.Hostel}</td>
+              <td>{searchResult.Hostel}&nbsp;&nbsp;<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3533.3766286097652!2d84.977081!3d24.760903!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ1JzQxLjEiTiA4NMKwNTgnMzguOCJF!5e1!3m2!1sen!2sin!4v1689150063941!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hostel'></iframe></td>
             </tr>
             <tr>
               <td>

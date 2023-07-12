@@ -42,7 +42,7 @@ const data = [
   {"Room":"273","Name":"Shiva Ram Krishna","Phone":"7739442253","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
   {"Room":"273","Name":"Mr. Krishna Baitha","Phone":"8084369902","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
   {"Room":"250","Name":"Mr. Ravi Ranjan Kumar Dubey","Phone":"8825269916","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
-  {"Room":"215","Name":"Mrs. PoojaUpadhyay","Phone":"7355095377","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
+  {"Room":"215","Name":"Mrs. Pooja Upadhyay","Phone":"7355095377","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
   {"Room":"215","Name":"Mrs. Sonali Raj","Phone":"8676071235","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
   {"Room":"250","Name":"Mr. ObaidSiddiqui","Phone":"8468854452","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
   {"Room":"67","Name":"Md Shakil Ahmad","Phone":"8826916106","Hostel":"Brahmaputra","admin":"Ms Payel Kumari","admin_ph":"9262556505"},
