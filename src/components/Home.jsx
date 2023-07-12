@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import data from '../asset/data';
 import bipard from "../asset/BIPARD.jpg";
 import { Button, Form, Row, Col} from "react-bootstrap";
+import { motion } from 'framer-motion';
 import "./home.css";
 
 const Home = () => {
@@ -30,6 +31,14 @@ const Home = () => {
       setSearchResult(null);
       setError('<h1>No matching details found</h1>');
     }
+    
+  };
+
+
+  const speech = ()=>{
+  const text = `Hi ${searchResult.Name} Welcome to Bipard Gaya`
+  const value = new SpeechSynthesisUtterance(text);
+  window.speechSynthesis.speak(value)
   };
 
   return (
@@ -47,7 +56,7 @@ const Home = () => {
         maxLength={10}
       />
       <div>
-        <Button variant="outline-primary" onClick={handleSearch}>Search</Button>
+        <Button variant="outline-primary" onClick={() => {handleSearch()}}>Search</Button>
         </div>
         </Form>
         </Col>
@@ -58,11 +67,20 @@ const Home = () => {
 
       {searchResult && (
         <>
-      
+        
         <img src={bipard} alt="" width="120" height="120" />
         <h3>Bihar Institute Of Public Administration & Rural Development</h3>
         <h4>Gaya</h4>
-        <h2 className='text-info'>Hi, <span className='text-danger'>{searchResult.Name}</span> Welcome to BIPARD</h2>
+        <motion.div animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 5,
+                    delay: 0.3,
+                    ease: [0.5, 0.71, 1, 1.5],
+                }}
+                initial={{ opacity: 0, scale: 0.5 }}
+                whileHover={{ scale: 1.2 }}>
+        <h2 className='text-info'>Hi, <span className='text-danger'>{searchResult.Name}{speech()}</span> Welcome to BIPARD</h2>
+        </motion.div>      
         <table className='table table-hover table-success'>
           <tbody className='text-start fs-4 fw-bold'>
           <tr>
