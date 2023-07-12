@@ -45,7 +45,7 @@ const Home = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='container-sm'>
       <Row className='search'>
         <Col sm={4}>
           <Form className="d-flex">
