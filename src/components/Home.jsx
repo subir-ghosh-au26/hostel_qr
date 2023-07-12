@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className='container'>
       <Row className='search'>
-        <Col sm={6}>
+        <Col sm={4}>
           <Form className="d-flex">
       <Form.Control
         type="search"
@@ -131,6 +131,30 @@ const Home = () => {
               </td>
               <td>
                 {searchResult.Room}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Bed No
+              </td>
+              <td>
+                {searchResult.Bed}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Your Allocated Mess
+              </td>
+              <td>
+                {searchResult.Mess}
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Your Class Room
+              </td>
+              <td>
+                {searchResult.Class}
               </td>
             </tr>
           </tbody>
