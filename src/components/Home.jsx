@@ -5,6 +5,7 @@ import { Button, Form, Row, Col} from "react-bootstrap";
 import { motion } from 'framer-motion';
 import "./home.css";
 
+
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResult, setSearchResult] = useState(null);
@@ -33,7 +34,6 @@ const Home = () => {
     }
     
   };
-
 
   const speech = ()=>{
   const text = `Hi ${searchResult.Name} Welcome to Beepard Gaya`
@@ -82,7 +82,7 @@ const Home = () => {
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileHover={{ scale: 1.2 }}>
-        <h2 className='text-info'>Hi, <span className='text-danger'>{searchResult.Name}{speech()}</span> Welcome to BIPARD</h2>
+        <h2 className='text' style={{backgroundColor:'#ff8886',padding: "10px",width:"700px",textAlign:'center',marginLeft:'230px'}}>Hi, {searchResult.Name}{speech()} Welcome to BIPARD</h2>
         </motion.div>      
         <table className='table table-hover table-success'>
           <tbody className='text-start fs-4 fw-bold'>
@@ -138,7 +138,7 @@ const Home = () => {
                 Your Allocated Mess
               </td>
               <td>
-                {searchResult.Mess}&nbsp;&nbsp;<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d883.3390925034552!2d84.97797226957483!3d24.761615216426172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ1JzQxLjgiTiA4NMKwNTgnNDMuMCJF!5e1!3m2!1sen!2sin!4v1689406818579!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe>
+                {searchResult.Mess}&nbsp;&nbsp;<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d441.6712905359806!2d84.97771965926133!3d24.761124638425237!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ1JzQwLjkiTiA4NMKwNTgnNDAuMCJF!5e1!3m2!1sen!2sin!4v1689487110366!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe>
               </td>
             </tr>
           </tbody>
