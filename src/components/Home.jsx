@@ -44,11 +44,6 @@ const Home = () => {
 
   };
 
-  const bramhaputra = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d521.0305933388986!2d84.97731845759901!3d24.761250688103583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b84f10e3b77%3A0xc7fdbb3a4c6fca5e!2sBramhaputra%20Hostel!5e1!3m2!1sen!2sin!4v1690628172924!5m2!1sen!2sin';
-  const niranjana = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.2646662423736!2d84.97777459999999!3d24.76137120000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32bfa4128964d%3A0x4cceb80f1fe5980d!2sNiranjana%20Mess!5e1!3m2!1sen!2sin!4v1690628439556!5m2!1sen!2sin';
-  const ganga = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d309.8074684470287!2d84.97774160301769!3d24.760920262862626!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32ba0e3c22e47%3A0x14ee77e60c6cbf03!2sGanga%20Hostel!5e1!3m2!1sen!2sin!4v1690628997751!5m2!1sen!2sin';
-  const annapurna = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d876.2634016250117!2d84.97845719697027!3d24.76155047158706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b687481f5f9%3A0x340cd9aa6b7d67ea!2sAnnapurna%20Mess!5e1!3m2!1sen!2sin!4v1690629068221!5m2!1sen!2sin"
-
 
   return (
     <div className='container-sm'>
@@ -109,7 +104,7 @@ const Home = () => {
                 <td>
                   Your Course Coordinater
                 </td>
-                <td>{searchResult.Coordinater}<br />(Assistant Director)</td>
+                <td>{searchResult.Coordinater}<br />({searchResult.Coordinater_designation})</td>
               </tr>
               <tr>
                 <td>
@@ -129,7 +124,7 @@ const Home = () => {
                 <td>
                   Your Hostel Name
                 </td>
-                <td>{searchResult.Hostel}&nbsp;&nbsp;<iframe src={bramhaputra} width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hostel'></iframe></td>
+                <td>{searchResult.Hostel}&nbsp;&nbsp;{searchResult.Hostel === "Brahmaputra" ? <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d521.0305933388986!2d84.97731845759901!3d24.761250688103583!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b84f10e3b77%3A0xc7fdbb3a4c6fca5e!2sBramhaputra%20Hostel!5e1!3m2!1sen!2sin!4v1690628172924!5m2!1sen!2sin' width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hostel'></iframe> : <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d309.8074684470287!2d84.97774160301769!3d24.760920262862626!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32ba0e3c22e47%3A0x14ee77e60c6cbf03!2sGanga%20Hostel!5e1!3m2!1sen!2sin!4v1690628997751!5m2!1sen!2sin' width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='hostel'></iframe>}</td>
               </tr>
               <tr>
                 <td>
@@ -144,7 +139,7 @@ const Home = () => {
                   Your Allocated Mess
                 </td>
                 <td>
-                  {searchResult.Mess}&nbsp;&nbsp;<iframe src={niranjana} width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe>
+                  {searchResult.Mess}&nbsp;&nbsp;{searchResult.Mess === "Niranjana" ? <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d876.2646662423736!2d84.97777459999999!3d24.76137120000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32bfa4128964d%3A0x4cceb80f1fe5980d!2sNiranjana%20Mess!5e1!3m2!1sen!2sin!4v1690628439556!5m2!1sen!2sin' width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='mess'></iframe> : <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d876.2634016250117!2d84.97845719697027!3d24.76155047158706!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f32b687481f5f9%3A0x340cd9aa6b7d67ea!2sAnnapurna%20Mess!5e1!3m2!1sen!2sin!4v1690629068221!5m2!1sen!2sin" width="150" height="100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='annapurna'></iframe>}
                 </td>
               </tr>
             </tbody>
