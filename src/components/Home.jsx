@@ -17,6 +17,7 @@ const Home = () => {
   };
 
   const handleSearch = () => {
+    
     if (searchTerm.trim() === '') {
       setError("Please enter a valid search term");
       setSearchResult(null);
