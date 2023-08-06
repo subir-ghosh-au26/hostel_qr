@@ -2,7 +2,7 @@ const data = [
   {
     "Name": "Murlidhar Prasad Singh",
     "Phone": "9074687528",
-    "Designation": "BPMCE Madhepura",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "301",
     "Mess": "Niranjana",
@@ -14,7 +14,7 @@ const data = [
   {
     "Name": "Mrinal Ranjan",
     "Phone": "8881523421",
-    "Designation": "GCE Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "301",
     "Mess": "Niranjana",
@@ -26,7 +26,7 @@ const data = [
   {
     "Name": "Raushan Kumar",
     "Phone": "8507744741",
-    "Designation": "GCE Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "302",
     "Mess": "Niranjana",
@@ -38,7 +38,7 @@ const data = [
   {
     "Name": "Mukesh kumar Roy",
     "Phone": "7033690577",
-    "Designation": "GEC Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "302",
     "Mess": "Niranjana",
@@ -50,7 +50,7 @@ const data = [
   {
     "Name": "Dr Hasan Imam",
     "Phone": "8409982296",
-    "Designation": "GEC Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "303",
     "Mess": "Niranjana",
@@ -62,7 +62,7 @@ const data = [
   {
     "Name": "Aman Kumar",
     "Phone": "8252872500",
-    "Designation": "GEC Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "303",
     "Mess": "Niranjana",
@@ -74,7 +74,7 @@ const data = [
   {
     "Name": "KUMAR VIKAS",
     "Phone": "8791260274",
-    "Designation": "GEC Madhubani",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "304",
     "Mess": "Niranjana",
@@ -86,7 +86,7 @@ const data = [
   {
     "Name": "VINOD KUMAR",
     "Phone": "9123103304",
-    "Designation": "GEC Madhubani",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "304",
     "Mess": "Niranjana",
@@ -98,7 +98,7 @@ const data = [
   {
     "Name": "Dr. Saurabh Suman",
     "Phone": "7061171869",
-    "Designation": "GEC Munger",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "305",
     "Mess": "Niranjana",
@@ -110,7 +110,7 @@ const data = [
   {
     "Name": "Chandan kumar",
     "Phone": "9778816393",
-    "Designation": "GEC Sheohar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "305",
     "Mess": "Niranjana",
@@ -122,7 +122,7 @@ const data = [
   {
     "Name": "Dr. Yogeshwar Dwivedi",
     "Phone": "9451057919",
-    "Designation": "GEC West Champaran",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "306",
     "Mess": "Niranjana",
@@ -134,7 +134,7 @@ const data = [
   {
     "Name": "NITISH SRIVASTAVA",
     "Phone": "8299889458",
-    "Designation": "GEC Kaimur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "306",
     "Mess": "Niranjana",
@@ -146,7 +146,7 @@ const data = [
   {
     "Name": "Sri Sanjay Prasad",
     "Phone": "9433189298",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "307",
     "Mess": "Niranjana",
@@ -158,7 +158,7 @@ const data = [
   {
     "Name": "Sri Anil Kumar Gupta",
     "Phone": "8789091280",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "307",
     "Mess": "Niranjana",
@@ -170,7 +170,7 @@ const data = [
   {
     "Name": "Sri Amit Kumar Suman",
     "Phone": "9835938174",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "308",
     "Mess": "Niranjana",
@@ -182,7 +182,7 @@ const data = [
   {
     "Name": "Dr.  Arbind Prasad",
     "Phone": "9678437791",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "308",
     "Mess": "Niranjana",
@@ -194,7 +194,7 @@ const data = [
   {
     "Name": "Sujeet Kumar",
     "Phone": "9572341301",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "309",
     "Mess": "Niranjana",
@@ -206,7 +206,7 @@ const data = [
   {
     "Name": "Sneha Kumari",
     "Phone": "8405016439",
-    "Designation": "KEC Katihar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "209",
     "Mess": "Niranjana",
@@ -218,7 +218,7 @@ const data = [
   {
     "Name": "BHARTI KUMARI",
     "Phone": "8553684521",
-    "Designation": "LNJPIT CHAPRA",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "209",
     "Mess": "Niranjana",
@@ -230,7 +230,7 @@ const data = [
   {
     "Name": "DR. KUMARI PRITI",
     "Phone": "8076439525",
-    "Designation": "LNJPIT CHAPRA",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "210",
     "Mess": "Niranjana",
@@ -242,7 +242,7 @@ const data = [
   {
     "Name": "Ravi Kumar",
     "Phone": "9931141068",
-    "Designation": "MCE Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "309",
     "Mess": "Niranjana",
@@ -254,7 +254,7 @@ const data = [
   {
     "Name": "Ashutosh Kumar",
     "Phone": "6201451158",
-    "Designation": "MCE Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "310",
     "Mess": "Niranjana",
@@ -266,7 +266,7 @@ const data = [
   {
     "Name": "Chandrashekhar Singh Chandal",
     "Phone": "6203989398",
-    "Designation": "MCE Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "310",
     "Mess": "Niranjana",
@@ -278,7 +278,7 @@ const data = [
   {
     "Name": "Gulshan Kumar",
     "Phone": "6201989043",
-    "Designation": "MIT Muzaffarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "311",
     "Mess": "Niranjana",
@@ -290,7 +290,7 @@ const data = [
   {
     "Name": "Umar Farooque",
     "Phone": "9905375210",
-    "Designation": "MIT Muzaffarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "311",
     "Mess": "Niranjana",
@@ -302,7 +302,7 @@ const data = [
   {
     "Name": "Deepak Kumar Choudhary",
     "Phone": "8770774369",
-    "Designation": "MIT Muzaffarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "312",
     "Mess": "Niranjana",
@@ -314,7 +314,7 @@ const data = [
   {
     "Name": "Kumari Priyanka Sinha",
     "Phone": "7903942842",
-    "Designation": "NCE Chandi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "210",
     "Mess": "Niranjana",
@@ -326,7 +326,7 @@ const data = [
   {
     "Name": "Ashish Ranjan",
     "Phone": "9798750292",
-    "Designation": "NCE Chandi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "312",
     "Mess": "Niranjana",
@@ -338,7 +338,7 @@ const data = [
   {
     "Name": "Alok Kumar",
     "Phone": "9576288028",
-    "Designation": "NCE Chandi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "313",
     "Mess": "Niranjana",
@@ -350,7 +350,7 @@ const data = [
   {
     "Name": "Saurabh Kumar",
     "Phone": "7654496063",
-    "Designation": "PCE Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "313",
     "Mess": "Niranjana",
@@ -362,7 +362,7 @@ const data = [
   {
     "Name": "Manoj Kumar Rajak",
     "Phone": "9955411742",
-    "Designation": "PCE Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "314",
     "Mess": "Niranjana",
@@ -374,7 +374,7 @@ const data = [
   {
     "Name": "Ratnesh Kumar",
     "Phone": "8406061934",
-    "Designation": "PCE Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "314",
     "Mess": "Niranjana",
@@ -386,7 +386,7 @@ const data = [
   {
     "Name": "Rakesh Kumar Roshan",
     "Phone": "7903429090",
-    "Designation": "RRSDCE Begusarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "315",
     "Mess": "Niranjana",
@@ -398,7 +398,7 @@ const data = [
   {
     "Name": "Rajiv Kumar Ranjan",
     "Phone": "8120690110",
-    "Designation": "RRSDCE Begusarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "315",
     "Mess": "Niranjana",
@@ -410,7 +410,7 @@ const data = [
   {
     "Name": "Suman Kumari",
     "Phone": "8743984297",
-    "Designation": "RRSDCE Begusarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "211",
     "Mess": "Niranjana",
@@ -422,7 +422,7 @@ const data = [
   {
     "Name": "Mr. Raman Kumar",
     "Phone": "9958535618",
-    "Designation": "SEC Sasaram                 ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "316",
     "Mess": "Niranjana",
@@ -434,7 +434,7 @@ const data = [
   {
     "Name": "Mr. Amit Kumar",
     "Phone": "7014786051",
-    "Designation": "SEC Sasaram                 ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "316",
     "Mess": "Niranjana",
@@ -446,7 +446,7 @@ const data = [
   {
     "Name": "Mr.Sudhir Kumar",
     "Phone": "7000953703",
-    "Designation": "SEC Sasaram                 ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "201",
     "Mess": "Niranjana",
@@ -458,7 +458,7 @@ const data = [
   {
     "Name": "Mr. Om Prakash",
     "Phone": "9771526537",
-    "Designation": "SEC Sasaram      ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "201",
     "Mess": "Niranjana",
@@ -470,7 +470,7 @@ const data = [
   {
     "Name": "Mr. Kapil Kumar Gupta",
     "Phone": "9140189415",
-    "Designation": "SEC Sasaram      ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "202",
     "Mess": "Niranjana",
@@ -482,7 +482,7 @@ const data = [
   {
     "Name": "Mr. Vikash kumar singh",
     "Phone": "7903766692",
-    "Designation": "SEC Sasaram      ",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "202",
     "Mess": "Niranjana",
@@ -494,7 +494,7 @@ const data = [
   {
     "Name": "Dr. Md. Irshad Alam",
     "Phone": "9162752285",
-    "Designation": "SIT Sitamarhi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "203",
     "Mess": "Niranjana",
@@ -506,7 +506,7 @@ const data = [
   {
     "Name": "Mr. Ashish Kumar",
     "Phone": "8961450083",
-    "Designation": "SIT Sitamarhi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "203",
     "Mess": "Niranjana",
@@ -518,7 +518,7 @@ const data = [
   {
     "Name": "Dr. Arun Kumar",
     "Phone": "9798953262",
-    "Designation": "SIT Sitamarhi",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "204",
     "Mess": "Niranjana",
@@ -530,7 +530,7 @@ const data = [
   {
     "Name": "Bikash Kumar Sah",
     "Phone": "9678438935",
-    "Designation": "BCE Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "204",
     "Mess": "Niranjana",
@@ -542,7 +542,7 @@ const data = [
   {
     "Name": "Kumar Jyotiraditya",
     "Phone": "7004618331",
-    "Designation": "BCE Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "205",
     "Mess": "Niranjana",
@@ -554,7 +554,7 @@ const data = [
   {
     "Name": "Sanjay Kumar",
     "Phone": "9431249933",
-    "Designation": "BCE Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "205",
     "Mess": "Niranjana",
@@ -566,7 +566,7 @@ const data = [
   {
     "Name": "Rajeev Ranjan",
     "Phone": "8804486512",
-    "Designation": "BCE Bakhtiyarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "206",
     "Mess": "Niranjana",
@@ -578,7 +578,7 @@ const data = [
   {
     "Name": "Manish Kumar",
     "Phone": "8092403438",
-    "Designation": "BCE Bakhtiyarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "206",
     "Mess": "Niranjana",
@@ -590,7 +590,7 @@ const data = [
   {
     "Name": "Afaque Alam",
     "Phone": "7093318600",
-    "Designation": "BCE Bakhtiyarpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "207",
     "Mess": "Niranjana",
@@ -602,7 +602,7 @@ const data = [
   {
     "Name": "Moonim lateefi",
     "Phone": "7463950022",
-    "Designation": "GP Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "207",
     "Mess": "Niranjana",
@@ -614,7 +614,7 @@ const data = [
   {
     "Name": "Balkrishna",
     "Phone": "8051954200",
-    "Designation": "GP Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "208",
     "Mess": "Niranjana",
@@ -626,7 +626,7 @@ const data = [
   {
     "Name": "Nitu Kumari",
     "Phone": "7903674791",
-    "Designation": "GP Purnea",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "211",
     "Mess": "Niranjana",
@@ -638,7 +638,7 @@ const data = [
   {
     "Name": "Mr. Raj Kamal Prasad",
     "Phone": "7702560334",
-    "Designation": "GP Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "208",
     "Mess": "Niranjana",
@@ -650,7 +650,7 @@ const data = [
   {
     "Name": "Mr Kundan Kumar",
     "Phone": "7005114976",
-    "Designation": "GP Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "213",
     "Mess": "Niranjana",
@@ -662,7 +662,7 @@ const data = [
   {
     "Name": "Mr. Sandeep Kumar",
     "Phone": "9546954460",
-    "Designation": "GP Bhagalpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "213",
     "Mess": "Niranjana",
@@ -674,7 +674,7 @@ const data = [
   {
     "Name": "Dr. Krishna Kumar",
     "Phone": "7563058757",
-    "Designation": "KNS GP Samastipur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "214",
     "Mess": "Niranjana",
@@ -686,7 +686,7 @@ const data = [
   {
     "Name": "Sri Newtton Kumar Singh",
     "Phone": "9279005620",
-    "Designation": "KNS GP Samastipur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "214",
     "Mess": "Niranjana",
@@ -698,7 +698,7 @@ const data = [
   {
     "Name": "Dr. Md. Quaiser Hasmi",
     "Phone": "+91 98524 5714",
-    "Designation": "KNS GP Samastipur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "215",
     "Mess": "Niranjana",
@@ -710,7 +710,7 @@ const data = [
   {
     "Name": "Rajesh Kumar",
     "Phone": "9576811989",
-    "Designation": "GP, Lakhisarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "215",
     "Mess": "Niranjana",
@@ -722,7 +722,7 @@ const data = [
   {
     "Name": "Saurav Kumar",
     "Phone": "8709592250",
-    "Designation": "GP, Lakhisarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "216",
     "Mess": "Niranjana",
@@ -734,7 +734,7 @@ const data = [
   {
     "Name": "Sanjeev Kumar",
     "Phone": "9470409122",
-    "Designation": "GP, Lakhisarai",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "216",
     "Mess": "Niranjana",
@@ -746,7 +746,7 @@ const data = [
   {
     "Name": "Sourav Kumar",
     "Phone": "7488038378",
-    "Designation": "GP Madhubani",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "217",
     "Mess": "Niranjana",
@@ -758,7 +758,7 @@ const data = [
   {
     "Name": "Pappu Paswan",
     "Phone": "7033377634",
-    "Designation": "GP Madhubani",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "217",
     "Mess": "Niranjana",
@@ -770,7 +770,7 @@ const data = [
   {
     "Name": "Subhash Chandra",
     "Phone": "8210905596",
-    "Designation": "GP Madhubani",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "218",
     "Mess": "Niranjana",
@@ -782,7 +782,7 @@ const data = [
   {
     "Name": "Sri Saurabh Kumar",
     "Phone": "9661149991",
-    "Designation": "GP Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "218",
     "Mess": "Niranjana",
@@ -794,7 +794,7 @@ const data = [
   {
     "Name": "Sri Abhimanyu Kumar",
     "Phone": "9340161623",
-    "Designation": "GP Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "219",
     "Mess": "Niranjana",
@@ -806,7 +806,7 @@ const data = [
   {
     "Name": "Sri Ravi choudhary",
     "Phone": "8178443238",
-    "Designation": "GP Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "219",
     "Mess": "Niranjana",
@@ -818,7 +818,7 @@ const data = [
   {
     "Name": "Rahul Kumar",
     "Phone": "7067154553",
-    "Designation": "GP Gopalganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "220",
     "Mess": "Niranjana",
@@ -830,7 +830,7 @@ const data = [
   {
     "Name": "Himanshu Ranjan",
     "Phone": "7982108861",
-    "Designation": "GP Gopalganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "220",
     "Mess": "Niranjana",
@@ -842,7 +842,7 @@ const data = [
   {
     "Name": "Chandan Kumar mishra",
     "Phone": "9065392430",
-    "Designation": "GP Gopalganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "101",
     "Mess": "Niranjana",
@@ -854,7 +854,7 @@ const data = [
   {
     "Name": "MD MAHFOOZ ALAM",
     "Phone": "9155144056",
-    "Designation": "GP Gopalganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "101",
     "Mess": "Niranjana",
@@ -866,7 +866,7 @@ const data = [
   {
     "Name": "Prince kumar pathak",
     "Phone": "8581967009",
-    "Designation": "GP Gopalganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "102",
     "Mess": "Niranjana",
@@ -878,7 +878,7 @@ const data = [
   {
     "Name": "Vipul Ranjan",
     "Phone": "9910921745",
-    "Designation": "GP Tekari, Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "102",
     "Mess": "Niranjana",
@@ -890,7 +890,7 @@ const data = [
   {
     "Name": "Amrita Kumari",
     "Phone": "7044275154",
-    "Designation": "GP Tekari, Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "212",
     "Mess": "Niranjana",
@@ -902,7 +902,7 @@ const data = [
   {
     "Name": "Rishabh Kumar",
     "Phone": "7277960702",
-    "Designation": "GP Tekari, Gaya",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "103",
     "Mess": "Niranjana",
@@ -914,7 +914,7 @@ const data = [
   {
     "Name": "SHAHID PARVEZ",
     "Phone": "7992425194",
-    "Designation": "GP BARAUNI",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "103",
     "Mess": "Niranjana",
@@ -926,7 +926,7 @@ const data = [
   {
     "Name": "HITESH KUMAR",
     "Phone": "9470009616",
-    "Designation": "GP BARAUNI",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "104",
     "Mess": "Niranjana",
@@ -938,7 +938,7 @@ const data = [
   {
     "Name": "MANJEET KUMAR",
     "Phone": "7903390599",
-    "Designation": "GP BARAUNI",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "104",
     "Mess": "Niranjana",
@@ -950,7 +950,7 @@ const data = [
   {
     "Name": "PANKAJ Kr. MANDAL",
     "Phone": "9661960492",
-    "Designation": "GP KATIHAR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "105",
     "Mess": "Niranjana",
@@ -962,7 +962,7 @@ const data = [
   {
     "Name": "NARENDRA KUMAR",
     "Phone": "9973874607",
-    "Designation": "GP KATIHAR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "105",
     "Mess": "Niranjana",
@@ -974,7 +974,7 @@ const data = [
   {
     "Name": "ABHISHEK MANKAR",
     "Phone": "9582728873",
-    "Designation": "GP KATIHAR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "106",
     "Mess": "Niranjana",
@@ -986,7 +986,7 @@ const data = [
   {
     "Name": "DR. DHANANJAY KUMAR",
     "Phone": "8789841609",
-    "Designation": "GP SIWAN",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "106",
     "Mess": "Niranjana",
@@ -998,7 +998,7 @@ const data = [
   {
     "Name": "AYUSH KUMAR",
     "Phone": "7979765540",
-    "Designation": "GP SIWAN",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "107",
     "Mess": "Niranjana",
@@ -1010,7 +1010,7 @@ const data = [
   {
     "Name": "KAUSHAL KUMAR",
     "Phone": "9798237835",
-    "Designation": "GP MUNGER",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "107",
     "Mess": "Niranjana",
@@ -1022,7 +1022,7 @@ const data = [
   {
     "Name": "MADANJEE KUMAR",
     "Phone": "9122094680",
-    "Designation": "GP MUNGER",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "108",
     "Mess": "Niranjana",
@@ -1034,7 +1034,7 @@ const data = [
   {
     "Name": "PURUSHOTTAM KUMAR",
     "Phone": "7979973341",
-    "Designation": "GP, SUPAUL",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "108",
     "Mess": "Niranjana",
@@ -1046,7 +1046,7 @@ const data = [
   {
     "Name": "RAHUL Kr. CHAUDHARY",
     "Phone": "8327710007",
-    "Designation": "GP, SUPAUL",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "109",
     "Mess": "Niranjana",
@@ -1058,7 +1058,7 @@ const data = [
   {
     "Name": "SANJAY Kr. SANJEEV",
     "Phone": "6200139448",
-    "Designation": "GP, SUPAUL",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "109",
     "Mess": "Niranjana",
@@ -1070,7 +1070,7 @@ const data = [
   {
     "Name": "Arindam Ghosh",
     "Phone": "7050209682",
-    "Designation": "GP Kishanganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "110",
     "Mess": "Niranjana",
@@ -1082,7 +1082,7 @@ const data = [
   {
     "Name": "Sikandar Kumar",
     "Phone": "7366010245",
-    "Designation": "GP Kishanganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "110",
     "Mess": "Niranjana",
@@ -1094,7 +1094,7 @@ const data = [
   {
     "Name": "Umesh Kumar",
     "Phone": "6201897779",
-    "Designation": "GP Kishanganj",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "111",
     "Mess": "Niranjana",
@@ -1106,7 +1106,7 @@ const data = [
   {
     "Name": "Paras Nath Kushwaha",
     "Phone": "7979087249",
-    "Designation": "GP, Asthawan Nalanda",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "111",
     "Mess": "Niranjana",
@@ -1118,7 +1118,7 @@ const data = [
   {
     "Name": "Vikash kumar",
     "Phone": "7011560539",
-    "Designation": "GP, Asthawan Nalanda",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "112",
     "Mess": "Niranjana",
@@ -1130,7 +1130,7 @@ const data = [
   {
     "Name": "Abhishek kumar",
     "Phone": "8340628623",
-    "Designation": "GP, Asthawan Nalanda",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "112",
     "Mess": "Niranjana",
@@ -1142,7 +1142,7 @@ const data = [
   {
     "Name": "AJAY KUMAR",
     "Phone": "9117628270",
-    "Designation": "GP MUZAFFARPUR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "113",
     "Mess": "Niranjana",
@@ -1154,7 +1154,7 @@ const data = [
   {
     "Name": "MANISH KUMAR",
     "Phone": "8240648554",
-    "Designation": "GP MUZAFFARPUR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "113",
     "Mess": "Niranjana",
@@ -1166,7 +1166,7 @@ const data = [
   {
     "Name": "MD OSAMA",
     "Phone": "9835689725",
-    "Designation": "GP MUZAFFARPUR",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "114",
     "Mess": "Niranjana",
@@ -1178,7 +1178,7 @@ const data = [
   {
     "Name": "Navin Kumar",
     "Phone": "9990386830",
-    "Designation": "GP Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "114",
     "Mess": "Niranjana",
@@ -1190,7 +1190,7 @@ const data = [
   {
     "Name": "Dr. Abul Kalam azad",
     "Phone": "9934855679",
-    "Designation": "GP Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "115",
     "Mess": "Niranjana",
@@ -1202,7 +1202,7 @@ const data = [
   {
     "Name": "Govind Sah",
     "Phone": "9431294680",
-    "Designation": "GP Motihari",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "115",
     "Mess": "Niranjana",
@@ -1214,7 +1214,7 @@ const data = [
   {
     "Name": "Jawahar Lal",
     "Phone": "9471032970",
-    "Designation": "GP Dehri-On-Sone",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "116",
     "Mess": "Niranjana",
@@ -1226,7 +1226,7 @@ const data = [
   {
     "Name": "Mithlesh Kumar",
     "Phone": "9263440796",
-    "Designation": "GP Dehri-On-Sone",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "116",
     "Mess": "Niranjana",
@@ -1238,7 +1238,7 @@ const data = [
   {
     "Name": "Amit Kumar Sagar",
     "Phone": "9123280791",
-    "Designation": "GP Dehri-On-Sone",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "117",
     "Mess": "Niranjana",
@@ -1250,7 +1250,7 @@ const data = [
   {
     "Name": "Surya kant",
     "Phone": "7250453667",
-    "Designation": "GP Bhojpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "117",
     "Mess": "Niranjana",
@@ -1262,7 +1262,7 @@ const data = [
   {
     "Name": "Shrikant Vijayee",
     "Phone": "9661785060",
-    "Designation": "GP Bhojpur",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "119",
     "Mess": "Niranjana",
@@ -1274,7 +1274,7 @@ const data = [
   {
     "Name": "Dr. Usha Kiran",
     "Phone": "7488172393",
-    "Designation": "GP Buxar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "212",
     "Mess": "Niranjana",
@@ -1286,7 +1286,7 @@ const data = [
   {
     "Name": "Sri Anshuman Singh",
     "Phone": "9565522226",
-    "Designation": "GP Buxar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "119",
     "Mess": "Niranjana",
@@ -1298,7 +1298,7 @@ const data = [
   {
     "Name": "Sri Amresh Kumar",
     "Phone": "9123236029",
-    "Designation": "GP Buxar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "120",
     "Mess": "Niranjana",
@@ -1310,7 +1310,7 @@ const data = [
   {
     "Name": "Ravi Shankar Kumar mishra",
     "Phone": "8789450767",
-    "Designation": "GP Sheohar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "120",
     "Mess": "Niranjana",
@@ -1322,7 +1322,7 @@ const data = [
   {
     "Name": "Prashant Kumar",
     "Phone": "7870220053",
-    "Designation": "GP Sheohar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "1",
     "Mess": "Niranjana",
@@ -1334,7 +1334,7 @@ const data = [
   {
     "Name": "Mani kanchan",
     "Phone": "6280451793",
-    "Designation": "GP Sheohar",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "19",
     "Mess": "Niranjana",
@@ -1346,7 +1346,7 @@ const data = [
   {
     "Name": "Prabhash Kumar",
     "Phone": "9039484611",
-    "Designation": "GP Saharsa",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "1",
     "Mess": "Niranjana",
@@ -1358,7 +1358,7 @@ const data = [
   {
     "Name": "Mintu Kumar",
     "Phone": "9354033295",
-    "Designation": "GP Saharsa",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "4",
     "Mess": "Niranjana",
@@ -1370,7 +1370,7 @@ const data = [
   {
     "Name": "Dharmendra Kumar",
     "Phone": "7667333403",
-    "Designation": "GP Saharsa",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "4",
     "Mess": "Niranjana",
@@ -1382,7 +1382,7 @@ const data = [
   {
     "Name": "Dharmendra Kumar",
     "Phone": "8902069179",
-    "Designation": "GP Jamui",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "5",
     "Mess": "Niranjana",
@@ -1394,7 +1394,7 @@ const data = [
   {
     "Name": "Subhash Chandra bhushan",
     "Phone": "7076059852",
-    "Designation": "GP Jamui",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "5",
     "Mess": "Niranjana",
@@ -1406,7 +1406,7 @@ const data = [
   {
     "Name": "Abhishek Gupta",
     "Phone": "9654495274",
-    "Designation": "GP Jamui",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "6",
     "Mess": "Niranjana",
@@ -1418,7 +1418,7 @@ const data = [
   {
     "Name": "Dr. Rani Begam",
     "Phone": "9123426855",
-    "Designation": "GP Banka",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "19",
     "Mess": "Niranjana",
@@ -1430,7 +1430,7 @@ const data = [
   {
     "Name": "Swarn Lata Kumari",
     "Phone": "7488508668",
-    "Designation": "GP Banka",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "9",
     "Mess": "Niranjana",
@@ -1442,7 +1442,7 @@ const data = [
   {
     "Name": "Birbal Kumar Rajak",
     "Phone": "9097257911",
-    "Designation": "GP Banka",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "6",
     "Mess": "Niranjana",
@@ -1454,7 +1454,7 @@ const data = [
   {
     "Name": "Manish Kumar",
     "Phone": "8340451458",
-    "Designation": "GP Chapra",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "7",
     "Mess": "Niranjana",
@@ -1466,7 +1466,7 @@ const data = [
   {
     "Name": "Pranav",
     "Phone": "9835637747",
-    "Designation": "GP Chapra",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "7",
     "Mess": "Niranjana",
@@ -1478,7 +1478,7 @@ const data = [
   {
     "Name": "Upendra Kumar",
     "Phone": "7464065504",
-    "Designation": "GP Chapra",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "8",
     "Mess": "Niranjana",
@@ -1490,7 +1490,7 @@ const data = [
   {
     "Name": "Jaya Bharati",
     "Phone": "8777024993",
-    "Designation": "NGP Patna-13",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "9",
     "Mess": "Niranjana",
@@ -1502,7 +1502,7 @@ const data = [
   {
     "Name": "Dr. Ranjeeta Tiwari",
     "Phone": "8757593029",
-    "Designation": "NGP Patna-13",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "11",
     "Mess": "Niranjana",
@@ -1514,7 +1514,7 @@ const data = [
   {
     "Name": "Dr. Manju Kumari",
     "Phone": "9431927729",
-    "Designation": "NGP Patna-13",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "11",
     "Mess": "Niranjana",
@@ -1526,7 +1526,7 @@ const data = [
   {
     "Name": "Ashok Kumar",
     "Phone": "7488181703",
-    "Designation": "GP Barh",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "8",
     "Mess": "Niranjana",
@@ -1538,7 +1538,7 @@ const data = [
   {
     "Name": "Pralayankar Kumar Singh",
     "Phone": "9934215204",
-    "Designation": "GP Barh",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "12",
     "Mess": "Niranjana",
@@ -1550,7 +1550,7 @@ const data = [
   {
     "Name": "Deepak Kumar Paswan",
     "Phone": "9406240320",
-    "Designation": "GP Barh",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "12",
     "Mess": "Niranjana",
@@ -1562,7 +1562,7 @@ const data = [
   {
     "Name": "Akash Kumar",
     "Phone": "9560347827",
-    "Designation": "GP Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "17",
     "Mess": "Niranjana",
@@ -1574,7 +1574,7 @@ const data = [
   {
     "Name": "Pawan Kumar",
     "Phone": "9430990030",
-    "Designation": "GP Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "17",
     "Mess": "Niranjana",
@@ -1586,7 +1586,7 @@ const data = [
   {
     "Name": "Md Ekrama Arshad",
     "Phone": "8130878502",
-    "Designation": "GP Vaishali",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "18",
     "Mess": "Niranjana",
@@ -1598,7 +1598,7 @@ const data = [
   {
     "Name": "Mithlesh Kumar",
     "Phone": "6200902521",
-    "Designation": "GP Aurangabad",
+    "Designation": "Assistant Professor",
     "Hostel": "Brahmaputra",
     "Room": "18",
     "Mess": "Niranjana",
